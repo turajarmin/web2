@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.left{
+    width: 50%;
+    height: 200px;
+    float:left;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px black,-5px -5px 5px black;
+}
+div.left>div.image{
+    width: 40%;
+    height: inherit;
+    float: left;
+}
+div.left>div.image>img{
+    width: 100%;
+    height: inherit;
+}
+div.left>div.text{
+    width: 60%;
+    height: inherit;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Comic Sans MS";
+    text-align: justify;
+}
+div.right{
+    width: 50%;
+    height: 200px;
+    float:right;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+}
+div.clear{
+    clear:both;
+}
+div.right>div.image{
+    width: 40%;
+    height: inherit;
+    float: right;
+}
+div.right>div.image>img{
+    width: 100%;
+    height: inherit;
+}
+div.right>div.text{
+    width: 60%;
+    height: inherit;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Comic Sans MS";
+    text-align: justify;
+}
